@@ -34,6 +34,7 @@ class Tile(game.sprite.Sprite):
         self.rect = self.surf.get_rect()
         self.number = 0
         self.selected = False
+
     def update(self, selected):
         self.selected = selected
         if (selected == True):
